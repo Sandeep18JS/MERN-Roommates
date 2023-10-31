@@ -174,7 +174,7 @@ const Room = () => {
 
 
                                 <p className="text-xl font-bold">Room's Total :  Rs. {calculateGrandTotal().toFixed(2)}</p>
-                                <p className="text-xl font-bold">Room's Total :  Rs. {calculatePerPersonAmount().toFixed(2)}</p>
+                                <p className="text-xl font-bold">Per Person :  Rs. {calculatePerPersonAmount().toFixed(2)}</p>
 
                             </div>
                         </div>
