@@ -181,13 +181,8 @@ const Room = () => {
                     ))}
 
                     {/* Toggleable Summary Table */}
-<<<<<<< HEAD
-                    <div className={` ${showSummaryTable ? 'block' : 'hidden'}`}>
-=======
+
                     <div className={`overflow-x-auto ${showSummaryTable ? 'block' : 'hidden'}`}>
->>>>>>> 8e4c797c9dc35ba27dd2e6c9be0fc0dd5824ae47
-
-
                         <h2 className="text-3xl text-45aas9c  font-bold tracking-wide mt-6  mb-2">Summary Table :</h2>
                         <table className="text-center w-full lg:w-2/3 bg-9C9C9C border border-white text-000 ">
                             <thead>
